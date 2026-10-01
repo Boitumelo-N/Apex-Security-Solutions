@@ -59,19 +59,13 @@ nav {
 
 .logo {
   display: flex;
-  flex-direction: column;
-  color: #ffffff;
-  font-weight: bold;
+  align-items: center;
 }
 
-.logo span:first-child {
-  font-size: 24px;
-  letter-spacing: 2px;
-}
-
-.logo span:last-child {
-  font-size: 10px;
-  letter-spacing: 2px;
+.logo img {
+  width: 140px;
+  height: auto;
+  display: block;
 }
 
 nav ul {
