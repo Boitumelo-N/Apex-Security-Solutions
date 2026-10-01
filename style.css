@@ -256,20 +256,20 @@ nav ul li a:hover {
   max-width: 650px;
 }
 
-form {
+#quoteForm {
   max-width: 700px;
   margin-top: 35px;
 }
 
-form label {
+#quoteForm label {
   display: block;
   margin-bottom: 7px;
   font-weight: bold;
 }
 
-form input,
-form select,
-form textarea {
+#quoteForm input,
+#quoteForm select,
+#quoteForm textarea {
   width: 100%;
   padding: 14px;
   margin-bottom: 20px;
@@ -278,11 +278,11 @@ form textarea {
   font-size: 15px;
 }
 
-form textarea {
+#quoteForm textarea {
   resize: vertical;
 }
 
-form button {
+#quoteForm button {
   padding: 15px 30px;
   background: #053262;
   color: #ffffff;
@@ -293,7 +293,7 @@ form button {
   transition: 0.3s;
 }
 
-form button:hover {
+#quoteForm button:hover {
   background: #0a4b8f;
 }
 
